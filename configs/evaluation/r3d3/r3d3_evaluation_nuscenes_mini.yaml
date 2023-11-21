@@ -14,8 +14,8 @@ datasets:
         root: [ datasets ]
         name: [ NuScenes ]
         path: [ ./data/datasets/nuScenes ]
-        split: [ val ]
-        version: [v1.0-trainval]
+        split: [ mini_val ]
+        version: [v1.0-mini]
         augmentation:
             resize: [ 448, 768 ]
         squeeze_sensor: [ False ]
